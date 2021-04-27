@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cristian Portfolio Website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/351c5e3e86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/popes.jpg" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="https://github.com/itscrisu" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello! I am <strong>Cristian Dominguez</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">FULLSTACK DEV</p>
+      <img src="img/index.png" class="intro__img" />
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <!--Service-->
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            I believe that designing is not only about the appearance of a
+            product. It is a cross functional process that includes market
+            research, technical research, design of a concept, and prototype
+            mockup.
+          </p>
+        </div>
+        <!--Service-->
+        <div class="service">
+          <h3>Research</h3>
+          <p>
+            Understand the client’s subject matter completely and build on the
+            knowledge related to it, becoming intimately familiar with the
+            subject matter. Determine methods to address the specific customer’s
+            needs and requirements.
+          </p>
+        </div>
+        <!--Service-->
+        <div class="service">
+          <h3>Develop</h3>
+          <p>
+            Findings from the research and design phases are utilized for the
+            production of specific products including materials, systems, and
+            methods. Then utilizing the research and designs to produce
+            commercial products for the customer.
+          </p>
+        </div>
+      </div>
+
+      <a href="https://github.com/itscrisu" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        FullStack Developer based out of Buenos Aires, Argentina
+      </p>
+      <div class="about-me__body">
+        <p>
+          I'm a FullStack Developer, with 2 years of study in the Computer
+          Science degree from National University of Córdoba - FaMAF and 6+
+          years of experience in the IT Industry, mainly bringing support to
+          clients and users (Help Desk) Most of my capabilities and experience
+          come from courses, Bootcamps, University and freelance works.
+        </p>
+        <p>
+          Right now I'm usually comfortable working with JavaScript, Python,
+          SQL, React, HTML, CSS/SASS and Bootstrap. Although I'm always eager to
+          learn new technologies and share my knowledge with others who are
+          passionate about IT, health and science.
+        </p>
+        <p>
+          I wish to become someone who improves the lives of other people
+          through the use of technology, particulary those with severe health or
+          financial issues. Also, as you can see, I love cats :) (and also dogs,
+          just that I don't have any yet lol)
+        </p>
+      </div>
+      <img src="img/cris.jpg" class="about-me__img" />
+    </section>
+
+    <!--My Work
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="porfolio">
+        * Item 01
+        <a href="#" class="portfolio__item">
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
+        * Item 02
+        <a href="#" class="portfolio__item">
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
+        * Item 03
+        <a href="#" class="portfolio__item">
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
+        * Item 04
+        <a href="#" class="portfolio__item">
+          <img src="#" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section> 
+  -->
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:cristian.eng3@gmail.com" class="footer__link"
+        >cristian.eng3@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/itscrisu"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/itscrisu"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://linkedin.com/in/cristiandominguezl/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
