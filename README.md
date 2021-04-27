@@ -3,3 +3,4 @@ I only added some functions to my hamburger menu in JavaScript because I actuall
 
 This project took me maybe more than a week (just because I wanted to learn some cool transforms in CSS and see if I could make the hamburger icon without using an svg)
 
+You can see it right here if you want to: https://itscrisu.github.io/Portfolio/
